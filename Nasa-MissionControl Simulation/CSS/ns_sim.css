@@ -1,0 +1,338 @@
+/*
+##############################################################################
+                                    TO DO
+##############################################################################
+
+- fix main window buttons, make the smaller
+- make sure to make the buttons reversible
+- fix de orbit window box position when resizing window
+
+##############################################################################
+                                    TO DO
+##############################################################################
+*/
+
+
+
+/* ####################################################################### */
+/* ############################ MAIN WINDOWS ############################# */
+
+body {
+  margin: 5% 8% 10% 8%;
+  background: #000000;
+  height: 90vh;
+}
+
+.actI {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: #696969;
+
+  height: 80vh;
+  width: 20%;
+
+  display: block;
+  float: left;
+
+  margin-right: 5%;
+}
+
+.actIButton {
+  font-size: 100%;
+}
+
+.mainScreen {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: #696969;
+
+  height: 10vh;
+  width: 40%;
+
+  display: block;
+  float: left;
+
+  margin-right: 5%;
+}
+
+
+.completionScreen {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: #696969;
+
+  height: 15vh;
+  width: 27%;
+
+  display: block;
+  float: left;
+}
+
+.De_orbit_window {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: #696969;
+
+  height: 40vh;
+  width: 40%;
+
+  display: block;
+  float: left;
+
+  margin-right: 5%;
+}
+
+.actIV {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: #696969;
+
+  height: 18vh;
+  width: 40%;
+
+  display: block;
+  float: left;
+
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.navigationLog {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: #696969;
+
+  height: 55vh;
+  width: 28%;
+
+  display: inline-block;
+
+
+  margin-top: 5%;
+
+}
+
+/* ############################ MAIN WINDOWS ############################# */
+/* ####################################################################### */
+
+/* ############################ WINDOW I ################################# */
+/* ####################################################################### */
+
+.actIButton {
+  text-align: center;
+  color: #DC143C;
+
+  display: block;
+  float: left;
+
+  border-style: inset;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: #A9A9A9;
+
+  width: 45%;
+  margin: 5% 0% 0% 1.8%;
+}
+
+.actIButton:hover {
+  border-color: #DC143C;
+  color: #7FFF00;
+}
+
+/* ############################ WINDOW I ################################# */
+/* ####################################################################### */
+
+/* ####################################################################### */
+/* ######################## NAV LOG WINDOW ############################### */
+
+.navLogText {
+  margin: 5% 5% 5% 5%;
+  padding: 2% 0 0% 5%;
+  height: 90%;
+  font-size: 80%;
+
+  border-style: inset;
+  border-width: thick;
+  border-color: #DCDCDC;
+  background: #2F4F4F;
+
+  opacity: 0.1;
+  overflow: auto;
+}
+
+p {
+  color: #FFD700;
+}
+
+
+
+
+/* ######################## NAV LOG WINDOW ############################### */
+/* ####################################################################### */
+
+/* ####################################################################### */
+/* ########################## COMMS WINDOW ############################### */
+
+.mainDialog {
+  margin: 2% 8% 2% 8%;
+  height: 7vh;
+
+  text-align: center;
+  line-height: 6vh;
+
+  background: #2F4F4F;
+  border-style: inset;
+  border-width: thick;
+  border-color: #DCDCDC;
+
+  color: #FFD700;
+}
+
+
+/* ########################## COMMS WINDOW ############################### */
+/* ####################################################################### */
+
+/* ####################################################################### */
+/* ######################### COMPLETION WINDOW ########################### */
+
+.complLights {
+  border-style: outset;
+  border-width: thick;
+  border-radius: 100%;
+  border-color: white;
+  width: 5%;
+  margin: 6% 2% 2% 2%;
+  height: 2vh;
+
+  display: block;
+  float: left;
+  margin-left: 6%;
+  text-align: center;
+  background: #FF4500;
+  opacity: 0.1;
+}
+
+.mistakLights {
+
+  border-style: outset;
+  border-width: thick;
+  border-radius: 100%;
+  border-color: white;
+  width: 5%;
+  margin: 6% 2% 2% 2%;
+  height: 2vh;
+
+  display: block;
+  float: left;
+  margin-left: 6%;
+  text-align: center;
+  background: #ffffff;
+  opacity: 0.1
+}
+
+.complLightsACT {
+  border-style: outset;
+  border-width: thick;
+  border-radius: 100%;
+  border-color: white;
+  width: 5%;
+  margin: 6% 2% 2% 2%;
+  height: 2vh;
+
+  display: block;
+  float: left;
+  margin-left: 6%;
+  text-align: center;
+  background: #FF4500;
+}
+
+.mistakLightsACT {
+  border-style: outset;
+  border-width: thick;
+  border-radius: 100%;
+  border-color: white;
+  width: 5%;
+  margin: 6% 2% 2% 2%;
+  height: 2vh;
+
+  display: block;
+  float: left;
+  margin-left: 6%;
+  text-align: center;
+  background: #ffffff;
+}
+
+/* ######################### COMPLETION WINDOW ########################### */
+/* ####################################################################### */
+
+/* ####################################################################### */
+/* ########################## DE-ORBIT WINDOW ############################ */
+
+.container {
+}
+
+#imageScreen {
+  margin: 5% 0 5% 5%;
+  width: 30%;
+  height: 20vh;
+
+  display: block;
+  float: left;
+
+  border-style: inset;
+  border-width: thick;
+  border-color: #DCDCDC;
+  opacity: 0.1;
+}
+
+.task_1 {
+  margin: 5% 0 5% 5%;
+  width: 53%;
+  height: 4.5em;
+
+  display: block;
+  float: left;
+
+  border-style: solid;
+  border-width: medium;
+  border-color: #696969;
+  opacity: 0.1;
+}
+
+.task_2 {
+  margin: 0% 0 5% 5%;
+  width: 53%;
+  height: 8.5vh;
+
+  display: block;
+  float: left;
+
+  border-style: solid;
+  border-width: medium;
+  border-color: #696969;
+  opacity: 0.1;
+}
+
+.task_3 {
+  margin: 1% 5% 5% 5%;
+  width: 90%;
+  height: 8vh;
+
+  display: block;
+  float: left;
+
+  border-style: solid;
+  border-width: medium;
+  border-color: #696969;
+  opacity: 0.1;
+}
+
+
+/* ########################## DE-ORBIT WINDOW ############################ */
+/* ####################################################################### */
