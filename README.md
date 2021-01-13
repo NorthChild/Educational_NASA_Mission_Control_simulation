@@ -7,3 +7,4 @@ https://northchild.github.io/Educational_NASA_Mission_Control_simulation/Nasa-Mi
 
 
 # must be viewed from large screen (over 700px)
+# WORK IN PROGRESS
