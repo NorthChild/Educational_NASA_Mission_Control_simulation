@@ -6,5 +6,5 @@ an educational view of the NASA Mission Control process, from pre-launch sequenc
 https://northchild.github.io/Educational_NASA_Mission_Control_simulation/Nasa-MissionControl%20Simulation/NS_simulator.html
 
 
-# must be viewed from large screen (over 700px)
+# must be viewed from large screen, try resizing if you notice elements overlapping
 # WORK IN PROGRESS
