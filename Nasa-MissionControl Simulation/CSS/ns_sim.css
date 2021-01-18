@@ -1,26 +1,11 @@
-/*
-##############################################################################
-                                    TO DO
-##############################################################################
-
-- fix main window buttons, make the smaller
-- make sure to make the buttons reversible
-- fix de orbit window box position when resizing window
-
-##############################################################################
-                                    TO DO
-##############################################################################
-*/
-
-
 
 /* ####################################################################### */
 /* ############################ MAIN WINDOWS ############################# */
 
 body {
-  margin: 5% 8% 10% 8%;
-  background: #000000;
-  height: 90vh;
+  margin: 5em 8% 10% 8%;
+  background: #262626;
+  height: 65vh;
 }
 
 .actI {
@@ -28,6 +13,7 @@ body {
   border-width: medium;
   border-radius: 5px;
   border-color: #696969;
+  background: #000000;
 
   height: 80vh;
   width: 20%;
@@ -47,6 +33,8 @@ body {
   border-width: medium;
   border-radius: 5px;
   border-color: #696969;
+
+  background: #000000;
 
   height: 10vh;
   width: 40%;
@@ -69,6 +57,8 @@ body {
 
   display: block;
   float: left;
+
+  background: #000000;
 }
 
 .De_orbit_window {
@@ -76,6 +66,8 @@ body {
   border-width: medium;
   border-radius: 5px;
   border-color: #696969;
+
+  background: #000000;
 
   height: 40vh;
   width: 40%;
@@ -91,6 +83,8 @@ body {
   border-width: medium;
   border-radius: 5px;
   border-color: #696969;
+
+  background: #000000;
 
   height: 18vh;
   width: 40%;
@@ -108,17 +102,50 @@ body {
   border-radius: 5px;
   border-color: #696969;
 
+  background: #000000;
+
   height: 55vh;
   width: 28%;
 
   display: inline-block;
 
-
   margin-top: 5%;
+}
 
+.dashboardImg {
+  text-align: center;
+}
+
+#dashImg {
+  width: 87%;
+  max-height: 14em;
+  border-style: inset;
+  border-width: thick;
+  border-color: #DCDCDC;
 }
 
 /* ############################ MAIN WINDOWS ############################# */
+/* ####################################################################### */
+
+/* ############################ INFO SCREEN ############################## */
+/* ####################################################################### */
+
+.infoScreen {
+  margin: 2% 8% 2% 8%;
+  height: 15.3vh;
+
+  text-align: center;
+
+  background: #353535;
+  border-style: inset;
+  border-width: thick;
+  border-color: #FFD700;
+
+  color: #FFD700;
+  overflow: auto;
+}
+
+/* ############################ INFO SCREEN ############################## */
 /* ####################################################################### */
 
 /* ############################ WINDOW I ################################# */
@@ -138,11 +165,13 @@ body {
 
   width: 45%;
   margin: 5% 0% 0% 1.8%;
+  font-size: 95%;
 }
 
 .actIButton:hover {
   border-color: #DC143C;
   color: #7FFF00;
+  font-size: 95%;
 }
 
 /* ############################ WINDOW I ################################# */
@@ -154,24 +183,48 @@ body {
 .navLogText {
   margin: 5% 5% 5% 5%;
   padding: 2% 0 0% 5%;
-  height: 90%;
+  height: 40%;
   font-size: 80%;
 
   border-style: inset;
   border-width: thick;
   border-color: #DCDCDC;
-  background: #2F4F4F;
+  background: #353535;
 
   opacity: 0.1;
   overflow: auto;
 }
 
-p {
-  color: #FFD700;
+.questText {
+  color: #9ef01a;
 }
 
+.questText:hover {
+  color: #ff0054;
+}
 
+#par1:hover, #par2:hover {
+  color: #ff0054;
+}
 
+p {
+  color: #ffffff;
+}
+
+#mapImg {
+  margin: 2% 0 5% 5%;
+  width: 87%;
+  height: 23vh;
+
+  display: block;
+  float: left;
+  opacity: 0.1;
+
+  border-style: inset;
+  border-width: thick;
+  border-color: #DCDCDC;
+
+}
 
 /* ######################## NAV LOG WINDOW ############################### */
 /* ####################################################################### */
@@ -186,14 +239,13 @@ p {
   text-align: center;
   line-height: 6vh;
 
-  background: #2F4F4F;
+  background: #353535;
   border-style: inset;
   border-width: thick;
   border-color: #DCDCDC;
 
   color: #FFD700;
 }
-
 
 /* ########################## COMMS WINDOW ############################### */
 /* ####################################################################### */
@@ -272,7 +324,7 @@ p {
 /* ####################################################################### */
 
 /* ####################################################################### */
-/* ########################## DE-ORBIT WINDOW ############################ */
+/* ########################## ORBIT WINDOW ############################ */
 
 .container {
 }
@@ -292,9 +344,9 @@ p {
 }
 
 .task_1 {
-  margin: 5% 0 5% 5%;
+  margin: 5% 0 2% 5%;
   width: 53%;
-  height: 4.5em;
+  height: 12em;
 
   display: block;
   float: left;
@@ -305,19 +357,6 @@ p {
   opacity: 0.1;
 }
 
-.task_2 {
-  margin: 0% 0 5% 5%;
-  width: 53%;
-  height: 8.5vh;
-
-  display: block;
-  float: left;
-
-  border-style: solid;
-  border-width: medium;
-  border-color: #696969;
-  opacity: 0.1;
-}
 
 .task_3 {
   margin: 1% 5% 5% 5%;
@@ -333,6 +372,65 @@ p {
   opacity: 0.1;
 }
 
+/* ########################## ORBIT WINDOW ############################ */
+/* ####################################################################### */
 
-/* ########################## DE-ORBIT WINDOW ############################ */
+/* ####################################################################### */
+/* ########################## ORBIT BUTTONS ########################### */
+
+/* ########################## BUTTONS STAGE I ############################ */
+div.deOrButt {
+  text-align: center;
+  color: #DC143C;
+
+  font-size: 90%;
+
+  display: block;
+  float: left;
+
+  border-style: inset;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: #A9A9A9;
+
+  width: 45%;
+  margin: 2% 0% 0.5% 1.8%;
+}
+
+div.deOrButt:hover {
+  font-size: 90%;
+  border-color: #DC143C;
+  color: #7FFF00;
+}
+
+/* ########################## BUTTONS STAGE II ############################ */
+
+div.deOrButtII {
+  font-size: 90%;
+  text-align: center;
+  color: #DC143C;
+
+  display: block;
+  float: left;
+
+  border-style: inset;
+  border-width: medium;
+  border-radius: 5px;
+  border-color: #A9A9A9;
+
+  width: 21.5%;
+  margin: 1% 0% 0% 1.8%;
+}
+
+div.deOrButtII:hover {
+  font-size: 90%;
+  border-color: #DC143C;
+  color: #7FFF00;
+}
+
+
+
+
+
+/* ########################## ORBIT BUTTONS ########################### */
 /* ####################################################################### */
