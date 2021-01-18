@@ -10,7 +10,6 @@
   <body>
 
 <section class="actI">
-
 <br> <br>
 
 <div class="actIButton" id="crew_on_b">CREW ON-B </div>
@@ -47,18 +46,20 @@
 <div class="actIButton"id="fullThrl">FULL THRTL </div>
 <div class="actIButton" id="liftOff" onclick="liftOff()">LIFT OFF </div> <br>
 
+<br> <br> <br> <br> <br>
+
+<div class="dashboardImg">
+  <img id="dashImg" src="/Users/mikesnow/Desktop/Principia /Programming projects/Game Dev/Nasa-Simulator/Nasa-Simulator NewIt/images/pixelated/01 - dashboard.png" alt="dashboard">
+</div>
 </section>
 
 
 <aside class="mainScreen">
-
 <div class="mainDialog" id="mainDig">- SYSTEM ONLINE, SYS LOAD READY - </div> <br>
-
 </aside>
 
 
 <section class="completionScreen">
-
 <div class="complLights" name='comLi' id="light1"></div>
 <div class="complLights" name='comLi' id="light2"></div>
 <div class="complLights" name='comLi' id="light3"></div>
@@ -66,46 +67,64 @@
 <div class="complLights" name='comLi' id="light5"></div>
 <div class="complLights" name='comLi' id="light6"></div>
 
-
 <div class="mistakLights" id="mistake1"></div>
 <div class="mistakLights" id="mistake2"></div>
 <div class="mistakLights" id="mistake3"></div>
 <div class="mistakLights" id="mistake4"></div>
 <div class="mistakLights" id="mistake5"></div>
 <div class="mistakLights" id="mistake6"></div>
-
 </section>
 
 
 
 <section id="de_orbitWin" class="De_orbit_window">
-
 <div id="container" class="container">
 
   <div class="imageScreen">
-  <img id="imageScreen" src="https://github.com/NorthChild/Educational_NASA_Mission_Control_simulation/blob/main/Nasa-MissionControl%20Simulation/images/pixelated/nasaLogoPix.png" alt="">
+  <img id="imageScreen" src="/Users/mikesnow/Desktop/Principia /Programming projects/Game Dev/Nasa-Simulator/images/pixelated/01 - nasaLogoPix.png" alt="">
   </div>
 
   <div id="tsk1" class="task_1">
-    <div class="">SAS </div>
-    <div class="">PITCH CRR</div>
-    <div class="">STAGE DECPLE</div>
-    <div class="">ENGN STNBY</div>
-
+    <div id="SAS" class="deOrButt" onclick="deOrbit1()">SAS </div>
+    <div id="pitchCorr" class="deOrButt">PITCH CRR</div>
+    <div id="stageDECU" class="deOrButt" onclick="decoupleSTG()">STAGE DECPLE</div>
+    <div id="engineSTBY" class="deOrButt">ENGN STNBY</div>
+    <div id="sysCheck" class="deOrButt" onclick="sysCheck()">SYS CHECK </div>
+    <div id="ProgradeSys" class="deOrButt" onclick="progAll()">PRO-GRD ALL</div>
+    <div id="hdg" class="deOrButt">HDG</div>
+    <div id="prograde" class="deOrButt">PROGRADE</div>
+    <div id="commCheck" class="deOrButt">COMM CHECK</div>
+    <div id="engineOn" class="deOrButt" onclick="engineOn()">ENGINE ON</div>
+    <div id="proGraMKR" class="deOrButt">PRO-GRD MKR</div>
+    <div id="STGClear" class="deOrButt" onclick="stageClear()">STG CLEAR</div>
   </div>
 
-  <div id="tsk2" class="task_2"> </div>
-
-  <div id="tsk3" class="task_3"> </div>
+  <div id="tsk3" class="task_3">
+      <div id="RLS_CTR" class="deOrButtII">RLS CTR</div>
+      <div id="CargoDlv" class="deOrButtII">CRG DLV</div>
+      <div id="sysCheckISS" class="deOrButtII">SYS CHECK</div>
+      <div id="HeatShieldCheck" class="deOrButtII">SHLD CHCK</div>
+      <div id="AllProc" class="deOrButtII"  onclick="allignProcess()">ALLGN PRC</div>
+      <div id="stgClrISS" class="deOrButtII" onclick="issStgClear()">STAGE CLR</div>
+      <div id="rlsSys" class="deOrButtII" onclick="systemRelease()">RLS SYS</div>
+      <div id="FnlCheck" class="deOrButtII" onclick="FinalCheck()">FNL CHECK</div>
+  </div>
 
 </div>
-
-
 </section>
 
 
 
 <section class="actIV">
+  <div id="infoScreen" class="infoScreen">
+    <p id="initialMSG"> WELCOME TO THE NASA MISSION CONTROL SIMULATION. <br>
+                        <br>
+                        PRESS THE <b>"SYS RD"</b> BUTTON TO PROCEED. <br>
+                        YOU CAN ALWAYS REFRESH THE PAGE TO RESTART. <br>
+                        MAKE SURE ALL BUTTONS AND WINDOWS ARE POSITIONED CORRECTLY <br>
+                        RESIZE AND ADJUST PAGE IF NECESSARY <br>
+     </p>
+  </div>
 </section>
 
 
@@ -113,51 +132,95 @@
 <section class="navigationLog">
 
 <div id="navLogText" class="navLogText">
-
-  <p id="par1"> </p>
+  <p id="par1" onclick="infoScreenExplanation()"> </p>
   <p id="par2"> </p>
-  <p id="par3"> </p>
-  <p id="par4"> </p>
+  <p id="par3" class="questText" onclick="infoScreenExplanation()"> </p>
+  <p id="par4" class="questText"> </p>
   <p id="par5"> </p>
   <p id="par6"> </p>
-  <p id="par7"> </p>
+  <p id="par7" class="questText"> </p>
   <p id="par8"> </p>
-  <p id="par9"> </p>
+  <p id="par9" class="questText"> </p>
   <p id="par10"> </p>
   <p id="par11"> </p>
   <p id="par12"> </p>
   <p id="par13"> </p>
   <p id="par14"> </p>
-  <p id="par15"> </p>
+  <p id="par15" class="questText"> </p>
   <p id="par16"> </p>
   <p id="par17"> </p>
   <p id="par18"> </p>
   <p id="par19"> </p>
-  <p id="par20"> </p>
+  <p id="par20" class="questText"> </p>
   <p id="par21"> </p>
   <p id="par22"> </p>
   <p id="par23"> </p>
   <p id="par24"> </p>
   <p id="par25"> </p>
-  <p id="par26"> </p>
+  <p id="par26" class="questText"> </p>
   <p id="par27"> </p>
   <p id="par28"> </p>
   <p id="par29"> </p>
   <p id="par30"> </p>
   <p id="par31"> </p>
-  <p id="par32"> </p>
+  <p id="par32" class="questText"> </p>
+  <p id="par33"> </p>
+  <p id="par34" class="questText"> </p>
+  <p id="par35"> </p>
+  <p id="par36"> </p>
+  <p id="par37"> </p>
+  <p id="par38"> </p>
+  <p id="par39" class="questText"> </p>
+  <p id="par40"> </p>
+  <p id="par41"> </p>
+  <p id="par42"> </p>
+  <p id="par43"> </p>
+  <p id="par44"> </p>
+  <p id="par45"> </p>
+  <p id="par46"> </p>
+  <p id="par47" class="questText"> </p>
+  <p id="par48"> </p>
+  <p id="par49"> </p>
+  <p id="par50"> </p>
+  <p id="par51" class="questText"> </p>
+  <p id="par52"> </p>
+  <p id="par53"> </p>
+  <p id="par54"> </p>
+  <p id="par55" class="questText"> </p>
+  <p id="par56"> </p>
+  <p id="par57"> </p>
+  <p id="par58"> </p>
+  <p id="par59"> </p>
+  <p id="par60"> </p>
+  <p id="par61"> </p>
+  <p id="par62" class="questText"> </p>
+  <p id="par63"> </p>
 
+  <p id="par64"> </p>
+  <p id="par65"> </p>
+  <p id="par66"> </p>
+  <p id="par67" class="questText"> </p>
+  <p id="par68"> </p>
+  <p id="par69"> </p>
+  <p id="par70"> </p>
+  <p id="par71" class="questText"> </p>
+  <p id="par72"> </p>
+  <p id="par73"> </p>
+  <p id="par74"> </p>
+  <p id="par75"> </p>
+  <p id="par76" class="questText"> </p>
+  <p id="par77"> </p>
+  <p id="par78"> </p>
+  <p id="par79"> </p>
+  <p id="par80" class="questText"> </p>
 
 </div>
 
+<div class="mapLog" id="mapLog">
+<img src="/Users/mikesnow/Desktop/Principia /Programming projects/Game Dev/Nasa-Simulator/images/pixelated/01 - map.png" id="mapImg" alt="map">
+</div>
+
 </section>
-
-
-
-
-
-
-
 
 
   </body>
