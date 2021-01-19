@@ -972,36 +972,6 @@ if (noErrorInGame === true) {
   // image CHANGE
   document.getElementById('mapImg').src = '/Users/mikesnow/Desktop/Principia /Programming projects/Game Dev/Nasa-Simulator/Nasa-Simulator NewIt/images/pixelated/10 - failure.png';
 
-
-  // CHECK ON THE ERRORS, DEPENDING ON WHAT ERRORS HAVE BEEN MADE, RELAY THE INFORMATION TO THE USER (I.E IF ERRORS ARE 1&2 TELL USER MISTAKE IS IN FIRST STAGE ETC)
-/*
-
-  if (errorLight1 === '#000000' && errorLight2 === '#000000') {
-    console.log('error 1 2');
-    document.getElementById('initialMSG').innerHTML = '1';
-}
-
-  if (errorLight3 === '#000000' && errorLight4 === '#000000') {
-    console.log('error 3 4');
-    document.getElementById('initialMSG').innerHTML = '2';
-}
-
-  if (errorLight1 === '#000000' && errorLight2 === '#000000' && errorLight3 === '#000000' && errorLight4 === '#000000') {
-    console.log('error 1 2 3 4');
-    document.getElementById('initialMSG').innerHTML = '2';
-}
-
-  if (errorLight5 === '#000000' && errorLight6 === '#000000') {
-    console.log('error 5 6');
-    document.getElementById('initialMSG').innerHTML = '3';
-}
-
-  if (errorLight1 === '#000000' && errorLight2 === '#000000' && errorLight3 === '#000000' && errorLight4 === '#000000' && errorLight5 === '#000000' && errorLight6 === '#000000') {
-    console.log('all errors');
-    document.getElementById('par80').innerHTML= '-- --';
-}
-*/
-
 }
 }
 
