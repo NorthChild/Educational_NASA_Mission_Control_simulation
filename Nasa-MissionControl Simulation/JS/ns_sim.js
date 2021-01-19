@@ -1,5 +1,6 @@
 
 /* ######################################################################## */
+/* ######################################################################## */
 /* ############################## FIRST WINDOW ############################ */
 
 var activation;
@@ -963,7 +964,7 @@ if (noErrorInGame === true) {
   var element = document.getElementById("navLogText");
   element.scrollTop = element.scrollHeight;
 
-  //
+  // failed final check message
   document.getElementById('initialMSG').innerHTML = "YOU'VE MADE SOME MISTAKES" + '<br>' + "CHECK ON THE TOP RIGHT COUNTER" + '<br>'  + '<br>' + "- THE FIRST TWO BUTTONS ARE THE FIRST STAGE" + '<br>' + "- THE 3RD AND 4TH BUTTON ARE THE SECOND STAGE ETC" + '<br>' + '<br>' + "REMEMBER TO FOLLOW INSTRUCTIONS TO THE LETTER" + '<br>' + "ALL BUTTONS ARE SUPPOSED TO BE WHITE IN ORDER TO SUCCEED" + '<br>' + '<br>' + "TRY AGAIN" + '<br>' + "MAKING NO MISTAKES!";
 
   // image CHANGE
