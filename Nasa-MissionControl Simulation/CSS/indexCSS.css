@@ -1,0 +1,73 @@
+/* ################################## */
+
+body {
+  margin: 1% 20% 5% 20%;
+  background: #262626;
+}
+
+.mainContainer {
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #696969;
+  background: #000000;
+  background-image: url("/Users/mikesnow/Desktop/Principia /Programming projects/Game Dev/Nasa-Simulator/Nasa-Simulator NewIt/images/pixelated/01 - nasaLogoPix.png");
+  background-size: 100% 100%;
+}
+
+/* ################################## */
+
+.titleBox {
+  width: 60%;
+  left: 45%;
+  display: inline-block;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #696969;
+  background: #EDF2FB;
+}
+
+/* ################################## */
+
+.box {
+  max-height: 15em;
+  padding: 1em;
+  width: 35%;
+  margin: 5%;
+  display: inline-block;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #696969;
+  background: #EDF2FB;
+  overflow: scroll;
+}
+
+/* ################################## */
+
+.logoImage {
+  width: 3em;
+  margin: 0 5% 8% 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ################################## */
+
+#toGame {
+  color: #000000;
+  border-style: outset;
+  border-color: #696969;
+  padding: 1em;
+  background: #EDF2FB;
+}
+
+#toGame:hover {
+  background-color: #023e8a;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* ################################## */
