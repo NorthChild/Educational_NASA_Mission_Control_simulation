@@ -773,15 +773,6 @@ function FinalCheck() {
   //progress lights - activation
   document.getElementById('light6').style.backgroundColor='#32CD32';
 
-        // ALL THIS TO TRANSFER INSIDE NEW FUNCTION THAT CHECKS ALL ERRORS AND DETERMINES WHETER OR NOT ITS MISSION SUCCESS OR NOT
-
-
-
-
-
-        // ALL THIS TO TRANSFER INSIDE NEW FUNCTION THAT CHECKS ALL ERRORS AND DETERMINES WHETER OR NOT ITS MISSION SUCCESS OR NOT
-
-
 
 //////////////////////////// TEST 1 - BUTTON COUNT /////////////////////////////
 
@@ -841,16 +832,6 @@ function FinalCheck() {
       // final check for button green state
       var noButtonlightErrorFinalCheck = false;
       console.log('noButtonlightErrorFinalCheck: ' + noButtonlightErrorFinalCheck);
-
-
-
-            // ALL THIS TO TRANSFER INSIDE NEW FUNCTION THAT CHECKS ALL ERRORS AND DETERMINES WHETER OR NOT ITS MISSION SUCCESS OR NOT
-
-
-
-
-            // ALL THIS TO TRANSFER INSIDE NEW FUNCTION THAT CHECKS ALL ERRORS AND DETERMINES WHETER OR NOT ITS MISSION SUCCESS OR NOT
-
 
     } else {
 
