@@ -311,6 +311,7 @@ function eighthsActiv() {
 }
 
 // FINAL BUTTON ON WINDOW, AFTER THIS HAS BEEN PRESSED, THERE A CHECK TO SEE IF ANY MISTAKES HAVE BEEN MADE, AND IT PROCEEDS TO NEXT SECTION
+
 function liftOff() {
   // lift off - activated
   document.getElementById('liftOff').style.borderColor='#7FFF00';
@@ -403,7 +404,9 @@ function liftOff() {
 }
 
 /* ############################## FIRST WINDOW ############################ */
+
 /* ######################################################################## */
+
 /* ####################### ORBIT WINDOW PT 1 ########################### */
 
 function deOrbit1() {
@@ -571,6 +574,7 @@ function engineOn() {
 }
 
 // FINAL BUTTON ON WINDOW, AFTER THIS HAS BEEN PRESSED, THERE A CHECK TO SEE IF ANY MISTAKES HAVE BEEN MADE, AND IT PROCEEDS TO NEXT SECTION
+
 function stageClear() {
   // stage clear - activation
   document.getElementById('STGClear').style.borderColor='#7FFF00';
@@ -650,7 +654,9 @@ function stageClear() {
 }
 
 /* ####################### ORBIT WINDOW PT 1 ########################### */
+
 /* ######################################################################## */
+
 /* ####################### ORBIT WINDOW PT II ########################## */
 
 function allignProcess() {
@@ -962,6 +968,7 @@ if (noErrorInGame === true) {
 /* ##################################################################### */
 /* ######################## INFORMATION WINDOW ######################### */
 
+// to be added
 
 
 /* ######################## INFORMATION WINDOW ######################### */
