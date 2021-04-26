@@ -3,10 +3,10 @@ an educational view of the NASA Mission Control process, from pre-launch sequenc
 
 # WORK IN PROGRESS
 
-# to do
+to do
 - add images 
 - add useful engineering and scientific information regarding the launch sequence
 
-# must be viewed from large screen, try resizing if you notice elements overlapping (ideal configuration 1300×700)
+must be viewed from large screen, try resizing if you notice elements overlapping (ideal configuration 1300×700)
 
 # WORK IN PROGRESS
