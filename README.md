@@ -5,7 +5,7 @@ an educational view of the NASA Mission Control process, from pre-launch sequenc
 
 to do
 - add images 
-- add useful engineering and scientific information regarding the launch sequence
+- add useful technical information regarding the launch sequence
 
 must be viewed from large screen, try resizing if you notice elements overlapping (ideal configuration 1300×700)
 
