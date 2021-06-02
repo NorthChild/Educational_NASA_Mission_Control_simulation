@@ -1,4 +1,4 @@
-# Educational_NASA_Mission_Control_simulation
+# Educational NASA Mission Control simulation Puzzle
 an educational view of the NASA Mission Control process, from pre-launch sequence, to orbiting and re-entry
 
 # WORK IN PROGRESS
